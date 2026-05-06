@@ -1,0 +1,218 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+[CreateAssetMenu(menuName = "Player Movement")]
+public class PlayerMovmentStats : ScriptableObject
+{
+    [Header("Walk")]
+    [Range(0f, 1f)] public float MoveThreshold = 0.25f;
+    [Range(1f, 100f)] public float MaxWalkSpeed = 12.5f;
+    [Range(0.25f, 50f)] public float GroundAcceleration = 5f;
+    [Range(0.25f, 50f)] public float GroundDeceleration = 20f;
+    [Range(0.25f, 50f)] public float AirAcceleration = 5f;
+    [Range(0.25f, 50f)] public float AirDeceleration = 5f;
+    [Range(0.25f, 50f)] public float WallJumpMoveAcceleration = 5f;
+    [Range(0.25f, 50f)] public float WallJumpMoveDeceleration = 5f;
+
+
+
+
+    [Header("Run")]
+    [Range(1f, 100f)] public float MaxRunSpeed = 100f;
+
+    [Header("Grounded/ collsion check")]
+    public LayerMask GroundLayer;
+
+    [Header("HeadBumpped Slide")]
+    public bool UseHeadBumpedSlide = true;
+    [Range(1f, 50f)] public float HeadBumpSlideSpeed = 13f;
+    [Range(0.01f, 1f)] public float HeadBumpBoxWidth = 0.3f;
+    [Range(0.01f, 0.5f)] public float HeadBumpBoxHeight = 0.1f;
+
+
+
+    [Header("slopes")]
+    public bool DashDirectionMatchesSlopeDirection = true;
+    public bool CanJumpOnMaxSlopes = false;
+    public bool JumpFollowSlopesWhenHeadTouching = true;
+    public bool DashFollowSlopeWhenHeadTouching = true;
+    [Range(0f, 90f)] public float MaxSlopeAngle = 70f;
+    [Range(1f, 100f)] public float SlideSpeed = 30f;
+
+    [Header("Reset Jump Options")]
+    public bool ResetJumpOnWallSlide = true;
+    public bool ResetAirJumpsOnMaxSlopeLand = false;
+
+
+
+
+
+    [Header("Jump")]
+    public float JumpHeight = 6.5f;
+    [Range(1f, 1.1f)] public float JumpHeightCompensationFactor = 1.054f;
+    public float TimeTillJumpApex = 0.35f;
+    [Range(0.01f, 5f)] public float GravityOnReleaseMultiplier = 2f;
+    public float MaxFallSpeed = 26f;
+    [Range(0, 5)] public int NumberOfAirJumpsAllowed = 1;
+
+
+    [Header("Jump Cut")]
+    [Range(0.02f, 0.3f)] public float TimeForUpwardsCancel = 0.027f;
+
+    [Header("Jump Apex")]
+    [Range(0.5f, 1f)] public float ApexThreshold = 0.97f;
+    [Range(0.01f, 1f)] public float ApexHangTime = 0.075f;
+
+    [Header("Jump Buffer")]
+    [Range(0f, 1f)] public float JumpBufferTime = 0.125f;
+
+    [Header("Jump Coyote Time")]
+    [Range(0f, 1f)] public float JumpCoyoteTime = 0.1f;
+
+
+    [Header("Wall Side")]
+    [Min(0.01f)] public float WallSlideSpeed = 5f;
+    [Range(0.25f, 50f)] public float WallSlideDecerationSpeed = 50f;
+    [Range(70f, 90f)] public float MinAngleForWallSlide = 85f;
+    [Range(90f, 135f)] public float MaxAngleForWallSlide = 95f;
+
+
+
+
+
+    [Header("Wall Jump")]
+    public Vector2 WallJumpDirection = new Vector2(-20f, 6.5f);
+    [Range(0f, 1f)] public float WallJumpPostBufferTime = 0.125f;
+    [Range(0.01f, 5f)] public float WallJumpGravityOnReleaseMultiplier = 1f;
+
+
+    [Header("Dash")]
+    [Range(0f, 1f)] public float DashTime = 0.11f;
+    [Range(1f, 200f)] public float DashSpeed = 40f;
+    [Range(0f, 1f)] public float TimeBtwDashesOnGround = 0.3f;
+    public bool ResetDashOnWallSlide = true;
+    [Range(0, 5)] public int NumberOfDashes = 2;
+    [Range(0f, 0.5f)] public float DashDiagonallyBias = 0.4f;
+    [Range(0f, 1f)] public float DashBufferTime = 0.125f;
+
+
+    [Header("Dash Cancel Time")]
+    [Range(0.01f, 5f)] public float DashGravityOnReleaseMultiplier = 1f;
+    [Range(0.02f, 0.3f)] public float DashTimeForUpwardsCancel = 0.027f;
+
+    [Header("Debug")]
+    public bool DebugShowIsGrounded;
+    public bool DebugShowHeadRays;
+    public bool DebugShowWallHit;
+    public bool DebugShowHeadBumpBox;
+
+    public bool DebugShowDescendSlopeRay;
+    public bool DebugShowSlopeNormal;
+    public bool DebugShowDashAngle;
+
+    [Range(0f, 1f)] public float ExtraRayDeBugDistance = 0.25f;
+
+
+
+
+    [Header("JumpVisualization Tool")]
+    public bool ShowWalkJumpArc = false;
+    public bool ShowRunJumpArc = false;
+    public bool StopOnCollisions = true;
+    public bool DrawRight = true;
+    [Range(5, 100)] public int ArcResolution = 20;
+    [Range(0, 500)] public int VisualizationSteps = 90;
+
+
+
+
+
+
+    public readonly Vector2[] DashDirections = new Vector2[]
+    {
+        new Vector2(0, 0), //nothing
+        new Vector2(1, 0), //Right
+        new Vector2(1, 1).normalized, //Top-Right
+        new Vector2(0, 1), //Up
+        new Vector2(-1, 1).normalized, //Top-Left
+        new Vector2(-1, 0), //Left
+        new Vector2(-1, -1).normalized, //Bottom-Left
+        new Vector2(0, -1), //Down
+        new Vector2(1, -1).normalized, //Bottom-Right
+    };
+
+
+    //Jump grav
+    public float Gravity { get; private set; }
+    public float InitialJumpVelocity { get; private set; }
+    public float AdjustedJumpHeight { get; private set; }
+
+    //Wall Jump Grav
+
+    public float WallJumpGravity { get; private set; }
+    public float InitialWallJumpVelocity { get; private set; }
+    public float AdjustedWallJumpHeight { get; private set; }
+
+    //dash
+
+    public float DashTargetApexHeight { get; private set; }
+
+
+
+
+    private void OnValidate()
+    {
+        CaluculateValues();
+    }
+
+    private void OnEnable()
+    {
+
+        CaluculateValues();
+    }
+
+    private void CaluculateValues()
+    {
+        //jump
+        AdjustedJumpHeight = JumpHeight * JumpHeightCompensationFactor;
+        Gravity = -(2f * AdjustedJumpHeight) / Mathf.Pow(TimeTillJumpApex, 2f);
+        InitialJumpVelocity = Mathf.Abs(Gravity) * TimeTillJumpApex;
+
+
+
+
+
+        //Wall jump
+
+        AdjustedWallJumpHeight = WallJumpDirection.y * JumpHeightCompensationFactor;
+        WallJumpGravity = -(2f * AdjustedWallJumpHeight) / Mathf.Pow(TimeTillJumpApex, 2f);
+        InitialWallJumpVelocity = Mathf.Abs(WallJumpGravity) * TimeTillJumpApex;
+
+        //dash
+
+        float step = Time.fixedDeltaTime;
+        float dashTimeRounded = Mathf.Ceil(DashTime / step) * step;
+        float dashCancelTimeRounded = Mathf.Ceil(DashTimeForUpwardsCancel / step) * step;
+
+        float dashConstantPhaseHeight = DashSpeed * dashTimeRounded;
+        float dashCancelPhaseHeight = 0.5f * DashSpeed * dashCancelTimeRounded;
+        DashTargetApexHeight = dashConstantPhaseHeight + dashCancelPhaseHeight;
+
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
