@@ -183,8 +183,8 @@ public class MovementController : MonoBehaviour
 
             if (hit)
             {
-                float slodeAngle = Mathf.Round(Vector2.Angle(hit.normal, Vector2.up));
-                bool isSlideableSlope = SlopeAngle > moveStats.MaxSlopeAngle && SlopeAngle < moveStats.MinAngleForWallSlide;
+                float slopeAngle = Mathf.Round(Vector2.Angle(hit.normal, Vector2.up));
+                bool isSlideableSlope = slopeAngle > moveStats.MaxSlopeAngle && slopeAngle < moveStats.MinAngleForWallSlide;
 
                 if (isSlideableSlope) 
                 {
@@ -612,10 +612,49 @@ public class MovementController : MonoBehaviour
 
             moveAmount.x = Mathf.Cos(slopeAngle * Mathf.Deg2Rad) * moveDistance * Mathf.Sign(moveAmount.x);
             moveAmount.y -= descendMoveAmountY;
+
+            IsDescendingSlope = true;
+            IsCollidingBelow = true;
+            SlopeNormal = hit.normal;
+            SlopeAngle = slopeAngle;
+
         }
 
 
     }
+    private void SideDownMaxSlope(RaycastHit2D hit, ref Vector2 velocity) 
+    {
+        if (hit)
+        {
+            float slopeAngle = Mathf.Round(Vector2.Angle(hit.normal, Vector2.up));
+
+            int wallDirection = (int)Mathf.Sign(hit.normal.x);
+            bool isFacingWall = (wallDirection == -1 && playerMovement.isFacingRight) || (wallDirection == 1 && !playerMovement.isFacingRight);
+
+            bool isNormalSlideableSlope = slopeAngle > moveStats.MaxSlopeAngle && slopeAngle < moveStats.MinAngleForWallSlide;
+            bool isWallSlope = slopeAngle >= moveStats.MinAngleForWallSlide;
+
+            if (isNormalSlideableSlope || (isWallSlope && !isFacingWall))
+            {
+                float tanAngle = Mathf.Clamp(slopeAngle, 0, 89.9f);
+
+                velocity.x = Mathf.Sign(hit.normal.x) * (Mathf.Abs(velocity.y) - hit.distance) / Mathf.Tan(tanAngle * Mathf.Deg2Rad);
+
+
+                IsSliding = true;
+                IsCollidingBelow = true;
+                SlopeAngle = slopeAngle;
+                SlopeNormal = hit.normal;
+
+
+            }
+
+
+        }
+    
+    }
+
+
 
 
 
