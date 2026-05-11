@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(menuName = "Player Movement")]
@@ -29,6 +27,7 @@ public class PlayerMovmentStats : ScriptableObject
     [Range(1f, 50f)] public float HeadBumpSlideSpeed = 13f;
     [Range(0.01f, 1f)] public float HeadBumpBoxWidth = 0.3f;
     [Range(0.01f, 0.5f)] public float HeadBumpBoxHeight = 0.1f;
+    [Range(0f, 45f)] public float MaxSlopeAngleForHeadBump = 5f;
 
 
 

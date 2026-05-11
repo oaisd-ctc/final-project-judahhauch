@@ -28,6 +28,7 @@ MonoBehaviour:
   HeadBumpSlideSpeed: 13
   HeadBumpBoxWidth: 0.3
   HeadBumpBoxHeight: 0.1
+  MaxSlopeAngleForHeadBump: 5
   DashDirectionMatchesSlopeDirection: 1
   CanJumpOnMaxSlopes: 0
   JumpFollowSlopesWhenHeadTouching: 1
@@ -54,9 +55,9 @@ MonoBehaviour:
   WallJumpDirection: {x: -20, y: 6.5}
   WallJumpPostBufferTime: 0.125
   WallJumpGravityOnReleaseMultiplier: 1
-  DashTime: 0.11
+  DashTime: 0.2
   DashSpeed: 40
-  TimeBtwDashesOnGround: 0.4
+  TimeBtwDashesOnGround: 0.6
   ResetDashOnWallSlide: 1
   NumberOfDashes: 1
   DashDiagonallyBias: 0.4

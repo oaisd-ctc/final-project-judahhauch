@@ -1,5 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
+using System;
 using UnityEngine;
 
 public class MovementController : MonoBehaviour
@@ -28,17 +27,25 @@ public class MovementController : MonoBehaviour
     public bool IsHittingCeilCenter { get; private set; }
     public bool IsHittingBothCorners { get; private set; }
 
-    public bool  IsClimbingSlope { get; private set; }
-    public bool  WasClimbingSlopeLastFrame { get; private set; }
+    public bool IsClimbingSlope { get; private set; }
+    public bool WasClimbingSlopeLastFrame { get; private set; }
     public bool IsDescendingSlope { get; private set; }
-    public float  SlopeAngle{ get; private set; }
-    public  Vector2 SlopeNormal { get; private set; }
+    public float SlopeAngle { get; private set; }
+    public Vector2 SlopeNormal { get; private set; }
     public float WallAngle { get; private set; }
     public bool IsSliding { get; private set; }
-    public bool  IsOnSlideableSlope { get; private set; }
+    public bool IsOnSlideableSlope { get; private set; }
     public int FaceDirection { get; private set; }
-    public float CeilingAngle  { get; private set; }
-    public Vector2 CeilingNormal  { get; private set; }
+    public float CeilingAngle { get; private set; }
+    public Vector2 CeilingNormal { get; private set; }
+
+
+
+
+
+
+
+
 
 
 
@@ -60,7 +67,7 @@ public class MovementController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         playerMovement = GetComponent<PlayerMovement>();
         moveStats = playerMovement.MoveStats;
-        
+
         FaceDirection = 1;
 
     }
@@ -76,6 +83,15 @@ public class MovementController : MonoBehaviour
         ResetCollisionStates();
         CheckCeilingBoxCast(velocity);
 
+        if(velocity.y <= 0f && !playerMovement.isDashing && !WasClimbingSlopeLastFrame)
+        {
+            DescendSlope(ref velocity);
+        }
+
+        if (velocity.x != 0)
+        {
+            FaceDirection = (int)Mathf.Sign(velocity.x);
+        }
 
 
         ResolveHorizontalMovement(ref velocity);
@@ -84,7 +100,7 @@ public class MovementController : MonoBehaviour
 
 
         rb.MovePosition(rb.position + velocity);
-    
+
     }
 
     private void CheckCeilingBoxCast(Vector2 velocity)
@@ -111,8 +127,8 @@ public class MovementController : MonoBehaviour
 
 
 
-    private void ResetCollisionStates() 
-    
+    private void ResetCollisionStates()
+
     {
         IsCollidingAbove = false;
         IsCollidingBelow = false;
@@ -140,9 +156,20 @@ public class MovementController : MonoBehaviour
     private void ResolveHorizontalMovement(ref Vector2 velocity)
     {
         float directionX = Mathf.Sign(velocity.x);
-        float rayLength = Mathf.Abs(velocity.x) + CollisionPadding;
-       
 
+        if(velocity.x == 0f)
+        {
+            directionX = FaceDirection;
+        }
+
+
+        float rayLength = Mathf.Abs(velocity.x) + CollisionPadding;
+
+        if (Mathf.Abs(velocity.x) < CollisionPadding)
+        {
+            rayLength = CollisionPadding * 2;
+
+        }
 
 
 
@@ -156,21 +183,62 @@ public class MovementController : MonoBehaviour
 
             if (hit)
             {
+                float slodeAngle = Mathf.Round(Vector2.Angle(hit.normal, Vector2.up));
+                bool isSlideableSlope = SlopeAngle > moveStats.MaxSlopeAngle && SlopeAngle < moveStats.MinAngleForWallSlide;
+
+                if (isSlideableSlope) 
+                {
+                    IsOnSlideableSlope = true;
+                    velocity.x = (hit.distance - CollisionPadding) * directionX;
+                    rayLength = hit.distance;
+
+                    if (IsClimbingSlope)
+                    {
+                        velocity.y = Mathf.Tan(SlopeAngle * Mathf.Deg2Rad) * Mathf.Abs(velocity.x);
+                    }
+
+                    if (directionX == -1)
+                    {
+                        IsCollidingLeft = true;
+
+                    }
+
+                    else if (directionX == 1)
+                    {
+                        IsCollidingRight = true;
+
+                    }
+
+                    continue;
+                }
+
+                if (IsSliding)
+                {
+                    continue;
+                }
+
+                if (i == 0 && SlopeAngle <= moveStats.MaxSlopeAngle)
+                {
+                    ClimbSlope(ref velocity, SlopeAngle, hit.normal);
+                    continue;
+                }
+
+                if (IsClimbingSlope && SlopeAngle <= moveStats.MaxSlopeAngle)
+                {
+                    continue;
+                }
+
                 velocity.x = (hit.distance - CollisionPadding) * directionX;
                 rayLength = hit.distance;
+                WallAngle = SlopeAngle;
 
-                if (directionX == -1)
+                if (IsClimbingSlope)
                 {
-                    IsCollidingLeft = true;
-
+                    velocity.y = Mathf.Tan(SlopeAngle * Mathf.Deg2Rad) * Mathf.Abs(velocity.x);
                 }
-                
-                
-                else if (directionX == 1)
-                {
-                    IsCollidingRight = true;
 
-                }
+                IsCollidingLeft = directionX == -1;
+                IsCollidingRight = directionX == 1;
 
             }
 
@@ -184,7 +252,7 @@ public class MovementController : MonoBehaviour
 
                 bool didHit = Physics2D.Raycast(debugRayOrigin, Vector2.right * directionX, debugRayLength, moveStats.GroundLayer);
                 Color rayColor = didHit ? Color.cyan : Color.red;
-                Debug.DrawRay(debugRayOrigin, Vector2.right * directionX * debugRayLength, rayColor);
+                UnityEngine.Debug.DrawRay(debugRayOrigin, Vector2.right * directionX * debugRayLength, rayColor);
 
 
 
@@ -192,22 +260,18 @@ public class MovementController : MonoBehaviour
             }
 
 
-            
-            
-            
+
+
+
             #endregion
         }
-
-
-
 
     }
 
 
     private void ResolveVerticalMovement(ref Vector2 velocity)
     {
-        float directionY = Mathf.Sign(velocity.y);
-        float rayLength = Mathf.Abs(velocity.y) + CollisionPadding;
+
 
         bool hitLeftCorner = false;
         bool hitRightCorner = false;
@@ -215,39 +279,74 @@ public class MovementController : MonoBehaviour
 
         #region Ceiling Check
 
-
-
-      
-
-        #endregion
-
-
-        for (int i = 0; i < NumOfVerticalRays; i++)
+        if (velocity.y >= 0f)
         {
-            Vector2 rayOrigin = (directionY == -1) ? RayCastCorners.bottomLeft : RayCastCorners.topLeft;
-           
-            rayOrigin += Vector2.right * (verticalRaySpace * i + velocity.x);
-
-            RaycastHit2D hit = Physics2D.Raycast(rayOrigin, Vector2.up * directionY, rayLength, moveStats.GroundLayer);
-
-
-            if (hit)
+            float upwardRayLength = Math.Abs(velocity.y) + CollisionPadding;
+            for (int i = 0; i < NumOfVerticalRays; i++)
             {
-                velocity.y = (hit.distance - CollisionPadding) * directionY;
-                rayLength = hit.distance;
+                Vector2 rayOrigin = RayCastCorners.topLeft;
 
-                if (directionY == -1)
+                float horizontalProjection = velocity.x;
+                if (playerMovement.isHeadBumpSliding)
                 {
-                    IsCollidingBelow = true;
-
+                    horizontalProjection = 0f;
                 }
-                else
-                {
-                    IsCollidingAbove = true;
-                    if (i == 0) hitLeftCorner = true;
-                    if (i == NumOfVerticalRays - 1) hitRightCorner = true;
 
-                    if (moveStats.UseHeadBumpedSlide)
+                rayOrigin += Vector2.right * (verticalRaySpace * i + horizontalProjection);
+                RaycastHit2D hit = Physics2D.Raycast(rayOrigin, Vector2.up, upwardRayLength, moveStats.GroundLayer);
+
+
+                if (hit)
+                {
+                    float currentCeilingAngle;
+                    if (hit.distance == 0f)
+                    {
+                        velocity.y = 0f;
+
+                        Vector2 safetyRayOrigin = rayOrigin + (Vector2.down * CollisionPadding * 2);
+                        RaycastHit2D safetyHit = Physics2D.Raycast(safetyRayOrigin, Vector2.up, CollisionPadding * 3, moveStats.GroundLayer);
+
+                        if (safetyHit)
+                        {
+                            currentCeilingAngle = Mathf.Round(Vector2.Angle(safetyHit.normal, Vector2.down));
+                            CeilingNormal = safetyHit.normal;
+                        }
+                        else
+                        {
+                            currentCeilingAngle = 0f;
+                            CeilingNormal = Vector2.down;
+
+                        }
+
+                    }
+                    else
+                    {
+                        velocity.y = (hit.distance - CollisionPadding);
+                        upwardRayLength = hit.distance;
+                        currentCeilingAngle = Mathf.Round(Vector2.Angle(hit.normal, Vector2.down));
+                        CeilingNormal = hit.normal;
+
+                    }
+                    IsCollidingAbove = true;
+                    if (i == 0)
+                    {
+                        hitLeftCorner = true;
+                    }
+
+                    if (i == NumOfVerticalRays - 1)
+                    {
+                        hitRightCorner = true;
+                    }
+
+                    if (currentCeilingAngle > CeilingAngle)
+                    {
+                        CeilingAngle = currentCeilingAngle;
+                        CeilingNormal = hit.normal;
+
+                    }
+
+
+                    if (moveStats.UseHeadBumpedSlide && currentCeilingAngle <= moveStats.MaxSlopeAngleForHeadBump)
                     {
                         int slideDir = 0;
                         if (i == 0) slideDir = 1;
@@ -265,49 +364,154 @@ public class MovementController : MonoBehaviour
 
                             }
                         }
+
                     }
+
                 }
-            }
+                #region debug visulizaer
 
-
-            #region debug visulizaer
-
-            if (moveStats.DebugShowIsGrounded)
-            {
-                float debugRayLength = moveStats.ExtraRayDeBugDistance;
-                Vector2 debugRayOrigin = RayCastCorners.bottomLeft + Vector2.right * (verticalRaySpace * i);
-                bool didHit = Physics2D.Raycast(debugRayOrigin, Vector2.down, debugRayLength, moveStats.GroundLayer);
-                Color rayColor = didHit ? Color.cyan : Color.red;
-                Debug.DrawRay(debugRayOrigin, Vector2.down * debugRayLength, rayColor);
-            }
-
-            if (moveStats.DebugShowHeadRays)
-            {
-                float debugRayLength = moveStats.ExtraRayDeBugDistance;
-                Vector2 debugRayOrigin = RayCastCorners.topLeft + Vector2.right * (verticalRaySpace * i);
-                bool didHit = Physics2D.Raycast(debugRayOrigin, Vector2.up, debugRayLength, moveStats.GroundLayer);
-                Color rayColor = didHit ? Color.cyan : Color.red;
-
-                if (i == 0 || i == NumOfVerticalRays -1)
+                if (moveStats.DebugShowIsGrounded)
                 {
-                    rayColor = didHit ? Color.green : Color.magenta;
-
+                    float debugRayLength = moveStats.ExtraRayDeBugDistance;
+                    Vector2 debugRayOrigin = RayCastCorners.bottomLeft + Vector2.right * (verticalRaySpace * i);
+                    bool didHit = Physics2D.Raycast(debugRayOrigin, Vector2.down, debugRayLength, moveStats.GroundLayer);
+                    Color rayColor = didHit ? Color.cyan : Color.red;
+                    UnityEngine.Debug.DrawRay(debugRayOrigin, Vector2.down * debugRayLength, rayColor);
                 }
 
-                Debug.DrawRay(debugRayOrigin, Vector2.up * debugRayLength, rayColor);
+                if (moveStats.DebugShowHeadRays)
+                {
+                    float debugRayLength = moveStats.ExtraRayDeBugDistance;
+                    Vector2 debugRayOrigin = RayCastCorners.topLeft + Vector2.right * (verticalRaySpace * i);
+                    bool didHit = Physics2D.Raycast(debugRayOrigin, Vector2.up, debugRayLength, moveStats.GroundLayer);
+                    Color rayColor = didHit ? Color.cyan : Color.red;
+
+                    if (i == 0 || i == NumOfVerticalRays - 1)
+                    {
+                        rayColor = didHit ? Color.green : Color.magenta;
+
+                    }
+
+                    UnityEngine.Debug.DrawRay(debugRayOrigin, Vector2.up * debugRayLength, rayColor);
+                }
+
+
+
+
+
+                #endregion
+
+            }
+
+        }
+
+
+        #endregion
+
+
+
+        #region ground check
+
+        float downwardRayLength;
+
+        if (velocity.y < 0)
+        {
+            downwardRayLength = Mathf.Abs(velocity.y) + CollisionPadding;
+
+        }
+        else
+        {
+            downwardRayLength = CollisionPadding * 2;
+        }
+
+        float smallestHitDistance = float.MaxValue;
+        RaycastHit2D groundHit = new RaycastHit2D();
+        bool foundGround = false;
+
+        for (int i = 0; i < NumOfVerticalRays; i++)
+        {
+            Vector2 rayOrigin = RayCastCorners.bottomLeft;
+            rayOrigin += Vector2.right * (verticalRaySpace * i + velocity.x);
+
+
+            RaycastHit2D hit = Physics2D.Raycast(rayOrigin, Vector2.down, downwardRayLength, moveStats.GroundLayer);
+
+
+            if (hit)
+            {
+
+                if (hit.distance < smallestHitDistance)
+                {
+                    smallestHitDistance = hit.distance;
+                    foundGround = true;
+                    groundHit = hit;
+                }
+
+
             }
 
 
 
-
-
-            #endregion
 
         } //for loop end
-        
-        
+
+
+        if (foundGround)
+        {
+            IsCollidingBelow = true;
+            if (velocity.y <= 0)
+            {
+                velocity.y = (groundHit.distance - CollisionPadding) * -1;
+            }
+
+            float slopeAngle = Mathf.Round(Vector2.Angle(groundHit.normal, Vector2.up));
+            bool isGroundAWall = slopeAngle >= moveStats.MinAngleForWallSlide && slopeAngle <= moveStats.MaxAngleForWallSlide;
+            if (!isGroundAWall)
+            {
+                if (slopeAngle > 0f)
+                {
+                    SlopeAngle = slopeAngle;
+                    SlopeNormal = groundHit.normal;
+                }
+
+            }
+        }
+        else
+        {
+            if (IsOnSlideableSlope)
+            {
+                IsSliding = true;
+            }
+
+        }
+
+
+
+        #endregion
+
         IsHittingBothCorners = hitLeftCorner && hitRightCorner;
 
+        if (IsClimbingSlope)
+        {
+            float directionX = Mathf.Sign(velocity.x);
+            float rayLength = Mathf.Abs(velocity.x) + CollisionPadding;
+            Vector2 rayOrigin = ((directionX == -1) ? RayCastCorners.bottomLeft : RayCastCorners.bottomRight) + Vector2.up * velocity.y;
+            RaycastHit2D hit = Physics2D.Raycast(rayOrigin, Vector2.right * directionX, rayLength, moveStats.GroundLayer);
+
+            if (hit)
+            {
+                float slopeAngle = Mathf.Round(Vector2.Angle(hit.normal, Vector2.up));
+                if (slopeAngle != SlopeAngle )
+                {
+                    velocity.x = (hit.distance - CollisionPadding) * directionX;
+                    SlopeAngle = slopeAngle;
+                    SlopeNormal = hit.normal;
+
+                }
+
+            }
+
+        }
 
 
 
@@ -338,6 +542,88 @@ public class MovementController : MonoBehaviour
         verticalRaySpace = bounds.size.x / (NumOfVerticalRays - 1);
 
     }
+
+    #region Slopes
+    
+    private void ClimbSlope(ref Vector2 velocity, float slopeAngle, Vector2 slopeNormal)
+    {
+        float moveDistance = Mathf.Abs(velocity.x);
+        float climbVelocityY = Mathf.Sin(slopeAngle * Mathf.Deg2Rad) * moveDistance;
+
+        if (velocity.y <= climbVelocityY)
+        {
+            velocity.y = climbVelocityY;
+            velocity.x = Mathf.Cos(slopeAngle * Mathf.Deg2Rad) * moveDistance * Mathf.Sign(velocity.x);
+
+            IsCollidingBelow = true;
+            IsClimbingSlope = true;
+            SlopeAngle = slopeAngle;
+            SlopeNormal = slopeNormal;
+        }
+
+
+    }
+    
+    
+    private void DescendSlope(ref Vector2 velocity)
+    {
+        
+        RaycastHit2D maxSlopeHitLeft = Physics2D.Raycast(RayCastCorners.bottomLeft, Vector2.down, Mathf.Abs(velocity.y) + CollisionPadding, moveStats.GroundLayer);
+        RaycastHit2D maxSlopeHitRight = Physics2D.Raycast(RayCastCorners.bottomRight, Vector2.down, Mathf.Abs(velocity.y) + CollisionPadding, moveStats.GroundLayer);
+
+
+        if (maxSlopeHitLeft ^ maxSlopeHitRight)
+        {
+            SideDownMaxSlope(maxSlopeHitLeft, ref velocity);
+            SideDownMaxSlope(maxSlopeHitRight, ref velocity);
+        }
+
+        if (!IsSliding)
+        {
+            float directionX = FaceDirection;
+
+            Vector2 rayOrigin = (directionX == -1) ? RayCastCorners.bottomRight : RayCastCorners.bottomLeft;
+
+            float maxExpectedVerticalDrop = Mathf.Tan(moveStats.MaxSlopeAngle * Mathf.Deg2Rad) * Mathf.Abs(velocity.x);
+            float dynamicRayLength = Mathf.Abs(velocity.y) + CollisionPadding + maxExpectedVerticalDrop;
+            float rayLength = Mathf.Max(dynamicRayLength, CollisionPadding * 2f);
+
+            RaycastHit2D hit = Physics2D.Raycast(rayOrigin, Vector2.down, rayLength, moveStats.GroundLayer);
+
+            if (hit)
+            {
+                float slopeAngle = Mathf.Round(Vector2.Angle(hit.normal, Vector2.up));
+                ApplySlopeStick(ref velocity, slopeAngle, hit);
+
+
+            }
+
+        }
+
+
+    }
+
+    private void ApplySlopeStick(ref Vector2 moveAmount, float slopeAngle, RaycastHit2D hit)
+    {
+        if (hit.distance - CollisionPadding <= Mathf.Tan(slopeAngle * Mathf.Deg2Rad) * Mathf.Abs(moveAmount.x))
+        {
+            float moveDistance = Mathf.Abs(moveAmount.x);
+            float descendMoveAmountY = Mathf.Sin(slopeAngle * Mathf.Deg2Rad) * moveDistance;
+
+            moveAmount.x = Mathf.Cos(slopeAngle * Mathf.Deg2Rad) * moveDistance * Mathf.Sign(moveAmount.x);
+            moveAmount.y -= descendMoveAmountY;
+        }
+
+
+    }
+
+
+
+    #endregion
+
+
+
+
     #region Helpers Methods
 
     public bool IsGround() => IsCollidingBelow;
@@ -354,13 +640,13 @@ public class MovementController : MonoBehaviour
 
 
     }
-    
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
+
     #endregion
 
 
