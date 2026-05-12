@@ -157,7 +157,7 @@ public class MovementController : MonoBehaviour
     {
         float directionX = Mathf.Sign(velocity.x);
 
-        if(velocity.x == 0f)
+        if (velocity.x == 0f)
         {
             directionX = FaceDirection;
         }
@@ -217,20 +217,20 @@ public class MovementController : MonoBehaviour
                     continue;
                 }
 
-                if (i == 0 && SlopeAngle <= moveStats.MaxSlopeAngle)
+                if (i == 0 && slopeAngle <= moveStats.MaxSlopeAngle)
                 {
-                    ClimbSlope(ref velocity, SlopeAngle, hit.normal);
+                    ClimbSlope(ref velocity, slopeAngle, hit.normal);
                     continue;
                 }
 
-                if (IsClimbingSlope && SlopeAngle <= moveStats.MaxSlopeAngle)
+                if (IsClimbingSlope && slopeAngle <= moveStats.MaxSlopeAngle)
                 {
                     continue;
                 }
 
                 velocity.x = (hit.distance - CollisionPadding) * directionX;
                 rayLength = hit.distance;
-                WallAngle = SlopeAngle;
+                WallAngle = slopeAngle;
 
                 if (IsClimbingSlope)
                 {

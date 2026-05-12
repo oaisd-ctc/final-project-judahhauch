@@ -9,7 +9,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Transform visualsTransform;
 
 
-    public Rigidbody2D rb;
+    private Rigidbody2D rb;
     private Animator anim;
 
     //movement vars
