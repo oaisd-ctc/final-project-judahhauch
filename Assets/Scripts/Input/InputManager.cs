@@ -13,12 +13,15 @@ public class InputManager : MonoBehaviour
     public static bool JumpWasReleased;
     public static bool RunIsHeld;
     public static bool DashWasPressed;
+    public static bool AttackWasPressed;
 
 
     private InputAction moveAction;
     private InputAction jumpAction;
     private InputAction runAction;
     private InputAction dashAction;
+    private InputAction attackAction;
+
     private void Awake()
     {
         PlayerInput = GetComponent<PlayerInput>();
@@ -28,6 +31,8 @@ public class InputManager : MonoBehaviour
         runAction = PlayerInput.actions["Run"];
 
         dashAction = PlayerInput.actions["Dash"];
+        attackAction = PlayerInput.actions["Attack"];
+
     }
 
 
@@ -42,6 +47,7 @@ public class InputManager : MonoBehaviour
         RunIsHeld = runAction.IsPressed();
         DashWasPressed = dashAction.WasPressedThisFrame();
 
+        AttackWasPressed = attackAction.WasPressedThisFrame();
 
     }
 }

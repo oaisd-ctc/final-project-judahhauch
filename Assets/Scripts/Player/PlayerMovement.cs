@@ -690,9 +690,6 @@ public class PlayerMovement : MonoBehaviour
 
 
 
-
-
-
         //jump cut
         if (isFastFalling)
         {
@@ -806,9 +803,6 @@ public class PlayerMovement : MonoBehaviour
 
     #region Wall Jump
 
-
-
-
     private void WallJumpCheck()
     {
         if (ShouldApplyPostWallJumpBuffer())
@@ -869,10 +863,6 @@ public class PlayerMovement : MonoBehaviour
     }
 
 
-
-
-
-
     private void WallJump(float timeStep)
     {
         //apply wj grav
@@ -885,8 +875,6 @@ public class PlayerMovement : MonoBehaviour
             {
                 useWallJumpMoveStats = false;
             }
-
-
 
             //head hit
             if (Controller.BumpedHead() && !isHeadBumpSliding)
@@ -919,8 +907,6 @@ public class PlayerMovement : MonoBehaviour
 
             if (!justFinishedSlide)
             {
-
-
 
                 //grav in asedding
 
@@ -1000,10 +986,6 @@ public class PlayerMovement : MonoBehaviour
 
         }
 
-
-
-
-
         //walljump cut
 
         if (isWallJumpFastFalling)
@@ -1021,13 +1003,7 @@ public class PlayerMovement : MonoBehaviour
 
             wallJumpFastFallTime += timeStep;
 
-
-
         }
-
-
-
-
 
     }
 
@@ -1046,10 +1022,6 @@ public class PlayerMovement : MonoBehaviour
         else { return false; }
 
     }
-
-
-
-
     private void ResetWallJumpValues()
     {
         isWallSlideFalling = false;
@@ -1062,12 +1034,7 @@ public class PlayerMovement : MonoBehaviour
         wallJumpFastFallTime = 0f;
         wallJumpTime = 0f;
 
-
     }
-
-
-
-
 
     #endregion
 
@@ -1080,10 +1047,6 @@ public class PlayerMovement : MonoBehaviour
         {
             dashBufferTimer = MoveStats.DashBufferTime;
         }
-
-
-
-
         if (dashBufferTimer > 0f)
         {
             //ground dash
@@ -1099,24 +1062,14 @@ public class PlayerMovement : MonoBehaviour
                 isAirDashing = true;
                 InitiateDash();
                 dashBufferTimer = 0f;
-
-
             }
 
-
-
-
         }
-
-
     }
 
     private void InitiateDash()
     {
         dashStartY = rb.position.y;
-
-
-
         dashDirection = moveInput;
         TurnCheck(dashDirection);
 
@@ -1129,9 +1082,7 @@ public class PlayerMovement : MonoBehaviour
             {
                 closestDirection = dashDirection;
                 break;
-
             }
-
             float distance = Vector2.Distance(dashDirection, MoveStats.DashDirections[i]);
 
             bool isDiagonal = (Mathf.Abs(MoveStats.DashDirections[i].x) == 1 && Mathf.Abs(MoveStats.DashDirections[i].y) == 1);
@@ -1166,7 +1117,6 @@ public class PlayerMovement : MonoBehaviour
 
         }
 
-
         dashDirection = closestDirection;
         numberOfDashesUsed++;
         isDashing = true;
@@ -1190,12 +1140,10 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
-
     private void Dash(float timeStep)
     {
 
         if (justFinishedSlide) return;
-
 
         if (isDashing)
         {
@@ -1203,7 +1151,6 @@ public class PlayerMovement : MonoBehaviour
             {
                 if (Controller.HeadBumpSlideDirection != 0 && !Controller.IsHittingCeilCenter && !Controller.IsHittingBothCorners)
                 {
-
                     slideFromDash = true;
                     dashTimer = 0f;
 
@@ -1221,8 +1168,6 @@ public class PlayerMovement : MonoBehaviour
                     isDashing = false;
                     isAirDashing = false;
                     dashTimer = 0f;
-
-
                 }
             }
 
@@ -1230,7 +1175,6 @@ public class PlayerMovement : MonoBehaviour
             {
                 Velocity.y = 0f;
                 return;
-
             }
 
 
@@ -1253,9 +1197,7 @@ public class PlayerMovement : MonoBehaviour
 
                     if (!Controller.IsGround())
                     {
-
                         isDashFastFalling = true;
-
                     }
                     else
                     {
@@ -1273,8 +1215,6 @@ public class PlayerMovement : MonoBehaviour
             }
             else
             {
-
-
                 Velocity.x = MoveStats.DashSpeed * dashDirection.x;
 
                 if (dashDirection.y != 0f || isAirDashing)
@@ -1285,16 +1225,10 @@ public class PlayerMovement : MonoBehaviour
                 else if (!isJumping && dashDirection.y == 0f)
                 {
                     Velocity.y = -0.001f;
-
-
                 }
 
 
             }
-
-
-
-
 
         }
 
@@ -1329,13 +1263,8 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
-
-
-
-
     private void ResetDashValues()
     {
-
         isDashFastFalling = false;
         dashOnGroundTimer = -0.01f;
 
@@ -1343,19 +1272,15 @@ public class PlayerMovement : MonoBehaviour
         dashFastFallTime = 0f;
         dashDirection = Vector2.zero;
         isPerformingSlopeDash = false;
-
     }
     private void ResetDashes()
     {
         numberOfDashesUsed = 0;
-
-
     }
 
     #endregion
 
     #region Slide
-
     private void HandleSlide(float timeStep)
     {
         if (Controller.IsSliding)
@@ -1368,9 +1293,6 @@ public class PlayerMovement : MonoBehaviour
         }
 
     }
-
-
-
     #endregion
 
 
@@ -1382,13 +1304,8 @@ public class PlayerMovement : MonoBehaviour
         {
             return true;
         }
-
         return false;
     }
-
-
-
-
     #endregion
 
 
@@ -1402,26 +1319,17 @@ public class PlayerMovement : MonoBehaviour
     {
         jumpBufferTimer -= timeStep;
 
-
         //coyote time
-
         HandleCoyoteTimer(timeStep);
 
         //wall jump buffer timer
         wallJumpPostBufferTimer -= timeStep;
 
-
-
         //dash timer
         HandleDashOnGroundTimer(timeStep);
 
         //dash buffer
-
         dashBufferTimer -= timeStep;
-
-
-
-
     }
 
     private void HandleCoyoteTimer(float timeStep)
@@ -1434,9 +1342,6 @@ public class PlayerMovement : MonoBehaviour
         {
             coyoteTimer -= timeStep;
         }
-
-
-
     }
 
     private void HandleDashOnGroundTimer(float timeStep)
@@ -1444,22 +1349,8 @@ public class PlayerMovement : MonoBehaviour
         if (Controller.IsGround() && !Controller.IsSliding && !IsSlideableSlope(Controller.SlopeAngle))
         {
             dashOnGroundTimer -= timeStep;
-
         }
-
     }
-
-
     #endregion
-
-
-
-
-
-
-
-
-
-
 
 }

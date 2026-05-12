@@ -16,6 +16,15 @@
                     "initialStateCheck": true
                 },
                 {
+                    "name": "Attack",
+                    "type": "PassThrough",
+                    "id": "97fa7024-fa19-40f1-b2ef-e9b8cb3d3710",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
                     "name": "Jump",
                     "type": "Button",
                     "id": "fb424162-c49f-41c4-802d-f1feb9780a8d",
@@ -37,15 +46,6 @@
                     "name": "Dash",
                     "type": "Button",
                     "id": "18cd3ce8-9e78-4734-967f-d4bd8388eb1a",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
-                    "name": "Punch",
-                    "type": "Button",
-                    "id": "346ee1b5-7d2b-4cfb-b7b0-279dc83124af",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -143,6 +143,28 @@
                 },
                 {
                     "name": "",
+                    "id": "1cc82e92-5980-4a76-a10f-07ea3c064820",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Attack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "75430d4e-d7cf-48ec-8a24-a13aa565e10e",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Attack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "5a87eafb-d0fd-460b-9e82-8358c541277f",
                     "path": "<Keyboard>/space",
                     "interactions": "",
@@ -171,17 +193,6 @@
                     "processors": "",
                     "groups": "",
                     "action": "Dash",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "19ed7e2f-bea3-4ddb-90c8-e77a869e759d",
-                    "path": "<Keyboard>/f",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Punch",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
