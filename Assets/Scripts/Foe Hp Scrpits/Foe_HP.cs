@@ -4,14 +4,21 @@ using UnityEngine;
 
 public class Foe_HP : MonoBehaviour
 {
-    [SerializeField] private float maxHealth = 4f;
+    [SerializeField] private int maxHealth = 4;
 
-    private float currentHealth;
+    private int currentHealth;
 
     private void Start()
     {
         currentHealth = maxHealth;
+
     }
 
+
+    public void TakeDamage(int damage)
+    {
+        currentHealth -= damage;
+
+    }
 
 }
