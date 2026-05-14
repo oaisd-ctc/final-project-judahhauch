@@ -1,0 +1,6124 @@
+fileFormatVersion: 2
+guid: d7fa7bded3729b345b0527de006b0d0b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: New ante tiles_0
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 2107
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad94417a8b4ca0459232416868d4f49
+      internalID: 208646270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_1
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 2107
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fe02d308ac3d164e8d7ad38c594800b
+      internalID: -32515545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_2
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 2107
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e411c7f1b9f8a6941b944a63c96ebf5f
+      internalID: -449445436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_3
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 2107
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c9c984d6c6c37649a65cc7193d52547
+      internalID: 7544169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_4
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 2043
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54a49601732682b47acdbb2c2c8bee0a
+      internalID: 521277447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_5
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 2043
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 156ea7d7c745f8e4f8dbb0f2609ea9c1
+      internalID: -1561196292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_6
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 2043
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b753194ddc0ea84abdf2fcb975cf626
+      internalID: 2072657454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_7
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 2043
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a3447e45b5c1a4fb6d71fc666d52b5
+      internalID: 660853458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_8
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 2043
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e91f41642ab00f488abf3cae08953aa
+      internalID: -936072982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_9
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 2043
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b246794ae89153439eb1c248e868590
+      internalID: 1534480387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_10
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2043
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf3afeb06a842748ab055bd6a6b8d5b
+      internalID: 1033413016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_11
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 2043
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e137ea02c425fa468f57036b9063468
+      internalID: 2049240617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_12
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 2043
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfee294de2ada89489418dab14abf629
+      internalID: -995904832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_13
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 2043
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7ebbafffd817784d8c24849df6c5932
+      internalID: -979658545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_14
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 2043
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae46a399dd68dfa4996b0f5ab249654c
+      internalID: 765677577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_15
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 1979
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d6fa943b603fc240a579d8299a68b41
+      internalID: 1073732618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_16
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1979
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccadd5b54abd3c147ac860262048f961
+      internalID: 766107313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_17
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 1979
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fed49f083e332f45904fbc608a045ff
+      internalID: 1584374321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_18
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1979
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6f04e2d07502744a5f8c2a93baeb94
+      internalID: 849666091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_19
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 1979
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a343f0942287fdd4cac767dee84728d8
+      internalID: -473521022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_20
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1979
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2bc4a71485881d47ae28587f1d3a58b
+      internalID: -2097709398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_21
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1979
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acea7158747bed244865d1d2206c5bbc
+      internalID: -33577469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_22
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1979
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7384a29b7525ab949b4b6b2a2aa823be
+      internalID: -336480525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_23
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 1979
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 614acd49e2001054ab8d90415540c638
+      internalID: 74419479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_24
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1979
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c8815739ba2a0849bf432d4d0f5ea8c
+      internalID: -1534866787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_25
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 1979
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c149325f55ee01f49b2960f187211f61
+      internalID: -2108083628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_26
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1979
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57bb6d4df80bf214392ce8f8c02931a0
+      internalID: 214579837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_27
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 1979
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d582a74c9cb0ac4f8745c4b32b266de
+      internalID: 567413874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_28
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1979
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b319506e3eedc3344bfb75a9f0014d6c
+      internalID: -253085577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_29
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 1979
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9e8c3973592954cba3834ede14a724
+      internalID: -20704954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_30
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 1979
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 767fda1032183304bafc2900b906212a
+      internalID: -431911188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_31
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 1979
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59be4def4a2c0d94787f62cb2bbfe375
+      internalID: 1974057228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_32
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1979
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16d04e5c10657c446949c70651e4758c
+      internalID: -75105033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_33
+      rect:
+        serializedVersion: 2
+        x: 2368
+        y: 1979
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c2334c986dc764aacbbff452a18753
+      internalID: 2066065468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_34
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 1979
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab66d9a463970ff4ab098dfe2010389e
+      internalID: -1036447116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_35
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 1915
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b757b24a7a68474a863dc072aa93882
+      internalID: 1964549381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_36
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1915
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4635de7ea9d0bf41b9d03fd154eb0e1
+      internalID: 332558963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_37
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 1915
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f59bed566d6b84b845cbfce5f07e22
+      internalID: 1419026172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_38
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1915
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99f335392b44dd6489ddca67f70f1a59
+      internalID: 652126600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_39
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 1915
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c423daf2d510dcc44a7b9822b5eb4c27
+      internalID: -838634162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_40
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1915
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c747888f8ebc6d44a9c0ba14a93e5513
+      internalID: -361829396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_41
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1915
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c73f2034c656f4687843a2d3d9ccc8
+      internalID: -633838811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_42
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1915
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16bf31ab9137efb48a12e525ad6226f9
+      internalID: -1137159418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_43
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 1915
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6234caa6fdc2bd648a37836b2757dc2f
+      internalID: -1225577565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_44
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1915
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50a225a3eaacd8d40835c5334f8bc9fb
+      internalID: -233118669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_45
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 1915
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73997ec367e45884dbca77e59b08e88c
+      internalID: -982258323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_46
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1915
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 458159dc8cc0c214da2e4dd2afe13ec3
+      internalID: -209642105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_47
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 1915
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f41fb5be3fef748827bf781087a3b2
+      internalID: -1790815182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_48
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1915
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e084ff1da4bf464197947ddca134644
+      internalID: -464194380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_49
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 1915
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 401fa939ad5226a409bdcdc368edc55a
+      internalID: -78439096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_50
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 1915
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69130bff41711db498eb1bd3e67cfeb1
+      internalID: 1560943329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_51
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 1915
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf2f5a877e6217f4a93e4d410c4ce417
+      internalID: 127865658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_52
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1915
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d50466844fbcb7642911d572aa90f8d2
+      internalID: 1974201877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_53
+      rect:
+        serializedVersion: 2
+        x: 2368
+        y: 1915
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e74f84dc911e64092f206785db0178
+      internalID: 1827750189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_54
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 1915
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acf3942123e0b66459a8dca580cfbcd8
+      internalID: -1989050775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_55
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 1851
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b3e78d3aa3f37f4ba44a0f8226cbfbb
+      internalID: -1102280536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_56
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1851
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bca79931c0fef7d4ea6eef5c8140ce7b
+      internalID: -1238840659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_57
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 1851
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d572598f05d9394cb4c009e8b1abd27
+      internalID: 355930901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_58
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1851
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1274e17765150d469ba4db358417ecb
+      internalID: -1924407595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_59
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 1851
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aca585c443e02f4aa82f605c10734cc
+      internalID: -563831250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_60
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1851
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c4ba967fc256f64ab0127dde9beae4a
+      internalID: 802732564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_61
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1851
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66bdbd9d401dafa4f8b65cd18e30bdd3
+      internalID: -584095327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_62
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1851
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b05a1a130179e4f923a66dd924840c
+      internalID: -1149393179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_63
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 1851
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d4af6c91ca903a41848e0daa6e7c8ec
+      internalID: 575068678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_64
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1851
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b38c86d3d3bbe4ea0ab2964fa0bdc3
+      internalID: -2071803272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_65
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 1851
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2179e85219bb439468ad92ab4f4a29ae
+      internalID: -1241455215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_66
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1851
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2216b3973b12f60408977fe7345d5842
+      internalID: 1480313906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_67
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 1851
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1839d308e04998843a26e274207fa704
+      internalID: 240571446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_68
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1851
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5975bc883c7b5334980aaafe44afd12d
+      internalID: 1069497859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_69
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 1851
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb64ee737d9bdb4b8f2a7718dd42400
+      internalID: -768750572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_70
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 1851
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d88ae9cdf02ca9849827bef8bb7a5051
+      internalID: -1373717888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_71
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 1851
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83fc1d10d5032834e88bb63dd0521751
+      internalID: -32635634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_72
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1851
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a3a98917f0a264a9f95b91706077cb
+      internalID: -1788878653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_73
+      rect:
+        serializedVersion: 2
+        x: 2368
+        y: 1851
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 037e767ffe2804c4c84efa4dd0bed149
+      internalID: -1818195426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_74
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 1851
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 188860a1952717b4580b5ac55d1b4c0f
+      internalID: 568563352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_75
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 1787
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ebe179d104352489f41e2d42933f02
+      internalID: -197642897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_76
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1787
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 234d792154f7dfe40b02a8cc9a7db725
+      internalID: -212207810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_77
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 1787
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63749ff171a07df4ea576d5cc5033dfa
+      internalID: -1217891165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_78
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1787
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6259eaa03a524f042ad99c22e3b7bb96
+      internalID: -288427535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_79
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 1787
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de4566b599c236c42ac138177675bfa4
+      internalID: 1268264109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_80
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1787
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9107caf99245784eaea5e9f6a7bf400
+      internalID: -600041594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_81
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1787
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea9bcca69b69204096f0209465e99b2
+      internalID: -118752701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_82
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1787
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed05afbef099cf40a6063506e13ffe6
+      internalID: 1291939132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_83
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 1787
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b7cb30f5c07d149a5a913ef81bc1ff
+      internalID: 1500333430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_84
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1787
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca1ae4214e66e5a4293a760010d395c0
+      internalID: 431654371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_85
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 1787
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da30785da6bdf2b439a8d2f9590a695a
+      internalID: -1209660335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_86
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1787
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbaf7c47463e0364fb0aeb706aa019c9
+      internalID: -2045906131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_87
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 1787
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11409601a630903478bf67a16c3b0e13
+      internalID: -1112043878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_88
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1787
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13cc568809d0e614b98aacf2193b3d45
+      internalID: -1293788421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_89
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 1787
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac9fb0db74611ea48bfd7c3b71081a50
+      internalID: -1147475022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_90
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 1787
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58fb70b8b4c0c7d428febe9d811f1170
+      internalID: 100243992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_91
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 1787
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16aeeec0ff8b95d4599f5671946ecc0e
+      internalID: -295351238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_92
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1787
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ecbf1290516000489fe84891e36a6f1
+      internalID: -1297174381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_93
+      rect:
+        serializedVersion: 2
+        x: 2368
+        y: 1787
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d40e119024feb0488d68ba61e2786d0
+      internalID: 711855668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_94
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 1787
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4093ee4dc4b22e7498cb61306e4503ba
+      internalID: 1752316475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_95
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 1723
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed345e4214596e9408368bc1c0ce1ebb
+      internalID: -48137197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_96
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1723
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae97d61c65fc124bb07b2a04875a6b9
+      internalID: -1098292742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_97
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 1723
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f7fece6b8a682447afc9af06612847c
+      internalID: -1603184764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_98
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1723
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f9c42b52eabdc14b91f9766145278a8
+      internalID: 1670555325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_99
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 1723
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d1c6101fd23dd4594c7b3d66700447
+      internalID: 880111960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_100
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1723
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04975e202d0fe7a469425182e2b1a927
+      internalID: -1890166814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_101
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1723
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b42bd0fe682b76f4cb5858e4cf9b458f
+      internalID: 263229961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_102
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1723
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d104be21f6e167439d5478154ba88f1
+      internalID: 157234303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_103
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 1723
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a2f41e17f9d4454e88ce43d78ba81bf
+      internalID: -617537171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_104
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1723
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c0df68347d11d4aba593e506912062
+      internalID: -1252947138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_105
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 1723
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da1031333dc0af44a9c0f4962f02f9e
+      internalID: -1396388191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_106
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1723
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b876826b76dd06e42ad0ca0718dbd248
+      internalID: -1937480989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_107
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 1723
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d24b29606b510040b4849b0b4ce4f0b
+      internalID: 1371388363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_108
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1723
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9ab43535495e4f419cf1b3848f6872b
+      internalID: -1067198218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_109
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 1723
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 828e203a460d4f14892b0caf8a995106
+      internalID: 1984771388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_110
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1723
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef92a2b65167a2e4692d006cfd1965c4
+      internalID: -422453486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_111
+      rect:
+        serializedVersion: 2
+        x: 2368
+        y: 1723
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10aca807e10f3d34a9cb83ed718ffdd8
+      internalID: 1916686110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_112
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 1723
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426f9238db37cc14cac4fc8104d68608
+      internalID: 430828261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_113
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1467
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54df7ab35d0953540b21ed953dda7983
+      internalID: 1453265975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_114
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1467
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e298e521a56a6c46b61e14d5eb45204
+      internalID: 664833415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_115
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1467
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 552961190dada9f4794a435016448cd2
+      internalID: -2078886861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_116
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1467
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e45845fcbef478644ac8e43e58edf4af
+      internalID: -2102091588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_117
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 1467
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7884925871a574d46ac6ca294905c40d
+      internalID: -1107092058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_118
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1467
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f042260118cddd4b91b8ea42e4a432b
+      internalID: -1875118761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_119
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 1467
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfc2e5189b53b474b903d59cc53506ec
+      internalID: -1143768691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_120
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1467
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9685f65ab00637c4e807c9cb96697488
+      internalID: 2095742529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_121
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 1467
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e89da94f97d0241a42192d1d37c21b
+      internalID: 1310288376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_122
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1467
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 160ee81b642fab04b8701b1c31e488c6
+      internalID: -1150600505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_123
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1403
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f7ae35eac25cc45947deb64c338265
+      internalID: 1840361605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_124
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1403
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f296daeb1070c9d4b9cd954b9d27e753
+      internalID: 2119608884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_125
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1403
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b231ee5d788584e8147f8b176223b9
+      internalID: -1116843224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_126
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1403
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a21b81e5d91e2444597b333563adf2cb
+      internalID: 1634699096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_127
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 1403
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae2b2bfdc88c7ef49a1a447e5126c5b6
+      internalID: -1948324186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_128
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1403
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23d57d4c4ad60ed4aa03537e93db727c
+      internalID: -1559172619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_129
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 1403
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33cbc737e21e22d4692aab33ddd5be98
+      internalID: -169534198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_130
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1403
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b7f8a15ba2fee141ad09355f1627c4c
+      internalID: -254654993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_131
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 1403
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42efe91de26bca74b849e2ee3869537f
+      internalID: -1004089114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_132
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1403
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58c3871a0b9396c4aae6a53de0659e61
+      internalID: 1152277413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_133
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1339
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0648626dbcd03b4688ce103cdb2ad7f
+      internalID: 1503985651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_134
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1339
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdceebc59cb17514199609294c19c3b0
+      internalID: -2103695197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_135
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1339
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c621c57aaae4042be2cf4f26b31d4f
+      internalID: -1858263890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_136
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1339
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f281e564447f94f45bb7a08476832f75
+      internalID: 1028705937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_137
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 1339
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c996b8b254bd3f94a9159ffd19112a26
+      internalID: 1352114770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_138
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1339
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d662e9ab5b3f64d9a8ba1f8ff691aa
+      internalID: -1986585186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_139
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 1339
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5893926fd4e6744c824990b6c794d16
+      internalID: 791588339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_140
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1339
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1be7ebdd28969214f95cac85ac7c41ed
+      internalID: 1098641718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_141
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 1339
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb04e9730a9ec3b4bbb3299a98816726
+      internalID: 1816572626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_142
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1339
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbe048078eda45340868d1736766ec1b
+      internalID: 649096434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_143
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1275
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 064f397f82b97a148807a3b8fa925d7c
+      internalID: 105760911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_144
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1275
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402a39d5785c7974f9940b463a16bc58
+      internalID: -46432565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_145
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1275
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8426abf81e1ab274ea926d77c6f78abb
+      internalID: -1905615053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_146
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1275
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b077cba2f21ca040be245846e2e43f0
+      internalID: 95096046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_147
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 1275
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0886f5a9ed8feb04781cc0c91272076c
+      internalID: 687668716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_148
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1275
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eee220e7ba2e3be4bb5238a1dc97f72c
+      internalID: -390153225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_149
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 1275
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f48aaa78e81c5045918a02add829e49
+      internalID: 239774140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_150
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1275
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb8971afaa3bebf4a93de2df451c105b
+      internalID: -628087417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_151
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 1275
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e5986507d44e6b46a3769777537781f
+      internalID: 1403775206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_152
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1275
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b5b93c3d79306a4a964fa5fa6d91b3e
+      internalID: 1444348501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_153
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1211
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea98b1497761a84898eab05caba7161
+      internalID: 578402478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_154
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1211
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed471690b86247b458464e661f0a411a
+      internalID: -1981761907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_155
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1211
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a9dc39a9b414f47a935f90bab0bce2
+      internalID: -331199188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_156
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1211
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a2498f4d637144da245d3c8bbe6130
+      internalID: -1571526042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_157
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 1211
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eddf6f202366136418088ada8475d313
+      internalID: 1903490537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_158
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1211
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc28345424a4ebc4fbbb20163af324de
+      internalID: 1661418182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_159
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 1211
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f3146b103d5204c9fed5328ac1e0c8
+      internalID: 1507915333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_160
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1211
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e61aa3b91b938414486ece5c2b8e2d73
+      internalID: -454113343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_161
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 1211
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc8926c9d4457b04ba9195a8172ab07f
+      internalID: 796931842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_162
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1211
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1419ab98b0c8bdf4f886985edf4d81e8
+      internalID: 345143536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_163
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1147
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 787d53c9418db7e4cb3473005f72c367
+      internalID: 404286790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_164
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1147
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1a049380f29eef4782ef16e11d921cb
+      internalID: 499441041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_165
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1147
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a260129406be3ae41910bfa5e39c62ad
+      internalID: -1869860623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_166
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1147
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7132e57820a5aa640aa644526e3669d9
+      internalID: 337897303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_167
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 1147
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8919eb0445200314fb97b3751268975b
+      internalID: -1207188538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_168
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1147
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d51e91f058795324ebfd637237d4389f
+      internalID: 1425806073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_169
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 1147
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50bd01e9eb29e674fa206e0a8206b76d
+      internalID: 791384196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_170
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1147
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f07c9d14dd44543b9715a1c6c60a8d
+      internalID: 652906331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_171
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 1147
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f13db20470a4347a4560987af28189
+      internalID: 1041960381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_172
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1147
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e5dbc7132f851c49ba193387f34bbaa
+      internalID: -795420887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_173
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1083
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8713bd80ef705a4a8d9ca28c19e6196
+      internalID: 796459352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_174
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1083
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2458697aa3920b498b252f7dbdbac69
+      internalID: -589972715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_175
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1083
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13aff5925d7e4f541837e11998348d59
+      internalID: 552900860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_176
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1083
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d21d8b0edc927945affa8c0d299eda4
+      internalID: -345446141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_177
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 1083
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89a17b8de3330134da6985dcbc421615
+      internalID: 1376334924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_178
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1083
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a46166c354ffb8c4a9bf1edae895948b
+      internalID: -755812413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_179
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 1083
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 114cd6206b2bf804d8e5bd5ec041f81a
+      internalID: -529999754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_180
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1083
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c27d09c4b9190cd41b37951b0ecc68f6
+      internalID: -1787667166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_181
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 1083
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5126c1da98f2a345a1024da17161280
+      internalID: 2023868312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_182
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1083
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad0e6bc3e9875e4ba7c6e9eab112824
+      internalID: -241464755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_183
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1083
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51def4e6fcc228944941224c109b49bb
+      internalID: -1303694293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_184
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1083
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b2a7bf6d76c7434f942afb670b9a43e
+      internalID: -39106557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_185
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 1083
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 497997c9c867f664ba4668317fb0a448
+      internalID: -470286448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_186
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1083
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f071201465b3064a9912f7692f5b6e2
+      internalID: -1389100031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_187
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1019
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 149ced8031a47ac478173598e1dfdb4a
+      internalID: 2125818963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_188
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1019
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f92181882e75ba54d9adc408c3b5a2f2
+      internalID: 2085241628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_189
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1019
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda596c03397c714bb39fea1f36dc682
+      internalID: -319723616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_190
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1019
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 019fa6c84a5d08d4e986fc2260861b48
+      internalID: 1661230132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_191
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 1019
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac950ba2baeca9e4d8b95ed3aa102774
+      internalID: 338520402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_192
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1019
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0e9f48b512833b4799edc809d4a1e2c
+      internalID: 414401955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_193
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 1019
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9da43d5f3b26b4d909c255216e9fb1
+      internalID: -20985760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_194
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1019
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82cb0031a369f3d4987d1c18c2d8cc5e
+      internalID: -250947701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_195
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 1019
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64aaf306a0e32ee4486f776130c70094
+      internalID: -457904013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_196
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1019
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bc295c5428a7b042866929002c415ea
+      internalID: -1045051728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_197
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1019
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b236550ff25ed1b438f067adb428238d
+      internalID: 1722855404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_198
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1019
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d1743c13e9792a458d59ef3cfbe1001
+      internalID: -149777066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_199
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 1019
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cfa6d60a62321f4d9fc6e1c2806bd78
+      internalID: -1891166686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_200
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1019
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56aa730f382f0f844bd9b5f099bc1d58
+      internalID: -1034029777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_201
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 955
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9582657541270fa45af23711cb97cf98
+      internalID: 69543972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_202
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 955
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be13b82863ba6944b23554e20cb1e4a
+      internalID: 211960564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_203
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 955
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee08857a825bc443859237792f687ba
+      internalID: -817271345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_204
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 955
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0114a798da1e1cf48870a85b65e7e90a
+      internalID: 44612043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_205
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 955
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d24bf65a5f61c9438e0aa394ba9fa44
+      internalID: -568874570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_206
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 955
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 943cef30c88142a40beb1b1e96f914ba
+      internalID: 1980103864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_207
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 955
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 877ce41d7ced5b840b157d17abcd1b42
+      internalID: -794451395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_208
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 955
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4d8382d25538594d9f4ab559f581db9
+      internalID: 125991126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_209
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 955
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a343486232e833e41b71ac4f98b4d75c
+      internalID: -1643942603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_210
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 955
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d960753f91a0602409707f4c7889ec07
+      internalID: -1138697929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_211
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 955
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdab472e30196744fb54c0e6c58ed7ec
+      internalID: -2003993104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_212
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 955
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f74b4fba323a045a1e7cc196bef82d
+      internalID: -1625860249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_213
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 955
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d13557429f5e2164da38c3ae86fc25c1
+      internalID: -1507313119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_214
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 955
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67b835ab639937649be8997992fbf56c
+      internalID: 1060266996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_215
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 891
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4efd880438a4df6409808665e9d9a061
+      internalID: -882903583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_216
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 891
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfe66b4d41f2b2a48a64e803e3df9b13
+      internalID: -2025830285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_217
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 891
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2773897dafff1ad4fa75c1950260c7cd
+      internalID: -973412109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_218
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 891
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc3bac40323ccb243a930d65dc7dae9b
+      internalID: 672076509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_219
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 891
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d904880728bbe48a774adae615aac0
+      internalID: -45426341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_220
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 891
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee313c3e9d4bc9e47a0708fceeb65431
+      internalID: -839050054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_221
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 891
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c830fc0e5625fc145b91f5e041200ebf
+      internalID: 2105960132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_222
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 891
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a22a50c06270ce141aad620eda462bcf
+      internalID: -1411142724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_223
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 891
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c0334731985e7849b1a8a70053484c8
+      internalID: 2000211333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_224
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 891
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0017300ad593dc44b74bc7568a4a923
+      internalID: -1795030156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_225
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 891
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 274853916a56a02468075758be491772
+      internalID: -1265605799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_226
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 891
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf304510dec043a4a9d278a7dbd0ece5
+      internalID: -1987608627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_227
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 891
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 884a9b5da63b1814e9030098cb0b322b
+      internalID: -110012280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_228
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 891
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58aa894a51ec1c3409aaa4572b56ac4f
+      internalID: 1115326326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_229
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 827
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fab2fb84a58321498b6f107b7a57184
+      internalID: -197004797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_230
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 827
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c86f1b57f4ab5d4e8f65e1660dd30a9
+      internalID: 860412736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_231
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 827
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 719abd181240dbc4b9283801a65eb3b8
+      internalID: -2088228817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_232
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 827
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f5d693c3567b2841842840a27860637
+      internalID: -243951293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_233
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 827
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e5c798526dcfa4fa95011e31b5828d
+      internalID: -524862883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_234
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 827
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65eb908c1eb4a80499d3ef7f7bfeacad
+      internalID: -1168124139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_235
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 827
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cf213a75f213e54e9604ce42331fd15
+      internalID: -1484395707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_236
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 827
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61ec828a341f19140b35e5891abce9af
+      internalID: 247028180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_237
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 827
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 899f2bb57f817de41bcdbead1980887f
+      internalID: -2024178917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_238
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 827
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2373d37be1664d947967b02bfc467f8b
+      internalID: -1773710664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_239
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 827
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fbf573c10438ac4092347389cf01564
+      internalID: -867266482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_240
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 827
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc47cf3cb330a041b82bdf384adae0c
+      internalID: 970890480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_241
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 827
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f38c2dae04b54148b4140c813a8d289
+      internalID: -573679980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_242
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 827
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc59334cb71f5954ba84dcd237433fa1
+      internalID: -1398999325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_243
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 763
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b8d63f19236ac40a9d23a0cbd34bc7
+      internalID: 1136552482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_244
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 763
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01fb2d6e3ac4dd643a358b5a1caa96b9
+      internalID: -1447138651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_245
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 763
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c3cf0888e0daf48a46feb70b0b475a
+      internalID: 757918435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_246
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 763
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed73bca7d3df02c4fa3a3dc8fc2c4a97
+      internalID: -770158305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_247
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 763
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47442e78025a28b498998bc63dbe2a66
+      internalID: 1897806346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_248
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 763
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e300761729cc2c47bb4a90cc3615fd4
+      internalID: -794373988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_249
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 763
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f877f48811625fc43bdeb4efcea6d4b9
+      internalID: 640511529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_250
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 763
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 244a0d4f95c5ae64ebc123f89089b06c
+      internalID: 130311372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_251
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 763
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d49bfc2c808831d4e80bfcae7695ba31
+      internalID: -968221856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_252
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 763
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7804a5a0d84e6b4c940c836cec435fb
+      internalID: -1873500350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_253
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 763
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a85f91e61e1af28438e56ee19b75cbd6
+      internalID: -20575475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_254
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 763
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcbd035809859214b82b4bd79c874cff
+      internalID: -923123663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_255
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 763
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b95266d421666a140a9e07f7515ff751
+      internalID: 960304032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_256
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 763
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc6dad6b7b22e1a408a8898495dc1332
+      internalID: 585659863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_257
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 699
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 197938ffcafe2f34baa15d0464ea88c2
+      internalID: -1061338152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_258
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 699
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe46bab8781928242bbc5013c78b3da0
+      internalID: -1867871406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_259
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 699
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f272bf15d4beb2419551dddf1e4ebfc
+      internalID: 46179975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_260
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 699
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fd0335a00005704c9ec78f38d10abd6
+      internalID: 2097663791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_261
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 699
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 772aba549f74ea940b1f0c01f2b1e769
+      internalID: -159967715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_262
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 699
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc92a7978bcbc504daf616a456f1e56c
+      internalID: -131398144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_263
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 699
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d54237be314cc3d45944665b7feb5717
+      internalID: -1778728388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_264
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 699
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b42c883cdf6f6ef45947b6fc3970a2d7
+      internalID: 570829056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_265
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 635
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2788312cadfbe5945a9748632453923b
+      internalID: 1618387507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_266
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 635
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ef0c62363df3c4397af3fa2f3595b5
+      internalID: 1772756430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_267
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 635
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52077c2d69ef6f9499f343d2cc6001d6
+      internalID: -1920698970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_268
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 635
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b0a6c324225ad4d90b829dc4c053e3
+      internalID: 773495195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_269
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 635
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d357a432541f354b86b1e266a1fa753
+      internalID: -1197193587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_270
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 635
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3891ea477a55051479697c31bcc6950b
+      internalID: -1970721696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New ante tiles_271
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 635
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf8048b16a836844b8b6ba2583553e89
+      internalID: -450499731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      New ante tiles_0: 208646270
+      New ante tiles_1: -32515545
+      New ante tiles_10: 1033413016
+      New ante tiles_100: -1890166814
+      New ante tiles_101: 263229961
+      New ante tiles_102: 157234303
+      New ante tiles_103: -617537171
+      New ante tiles_104: -1252947138
+      New ante tiles_105: -1396388191
+      New ante tiles_106: -1937480989
+      New ante tiles_107: 1371388363
+      New ante tiles_108: -1067198218
+      New ante tiles_109: 1984771388
+      New ante tiles_11: 2049240617
+      New ante tiles_110: -422453486
+      New ante tiles_111: 1916686110
+      New ante tiles_112: 430828261
+      New ante tiles_113: 1453265975
+      New ante tiles_114: 664833415
+      New ante tiles_115: -2078886861
+      New ante tiles_116: -2102091588
+      New ante tiles_117: -1107092058
+      New ante tiles_118: -1875118761
+      New ante tiles_119: -1143768691
+      New ante tiles_12: -995904832
+      New ante tiles_120: 2095742529
+      New ante tiles_121: 1310288376
+      New ante tiles_122: -1150600505
+      New ante tiles_123: 1840361605
+      New ante tiles_124: 2119608884
+      New ante tiles_125: -1116843224
+      New ante tiles_126: 1634699096
+      New ante tiles_127: -1948324186
+      New ante tiles_128: -1559172619
+      New ante tiles_129: -169534198
+      New ante tiles_13: -979658545
+      New ante tiles_130: -254654993
+      New ante tiles_131: -1004089114
+      New ante tiles_132: 1152277413
+      New ante tiles_133: 1503985651
+      New ante tiles_134: -2103695197
+      New ante tiles_135: -1858263890
+      New ante tiles_136: 1028705937
+      New ante tiles_137: 1352114770
+      New ante tiles_138: -1986585186
+      New ante tiles_139: 791588339
+      New ante tiles_14: 765677577
+      New ante tiles_140: 1098641718
+      New ante tiles_141: 1816572626
+      New ante tiles_142: 649096434
+      New ante tiles_143: 105760911
+      New ante tiles_144: -46432565
+      New ante tiles_145: -1905615053
+      New ante tiles_146: 95096046
+      New ante tiles_147: 687668716
+      New ante tiles_148: -390153225
+      New ante tiles_149: 239774140
+      New ante tiles_15: 1073732618
+      New ante tiles_150: -628087417
+      New ante tiles_151: 1403775206
+      New ante tiles_152: 1444348501
+      New ante tiles_153: 578402478
+      New ante tiles_154: -1981761907
+      New ante tiles_155: -331199188
+      New ante tiles_156: -1571526042
+      New ante tiles_157: 1903490537
+      New ante tiles_158: 1661418182
+      New ante tiles_159: 1507915333
+      New ante tiles_16: 766107313
+      New ante tiles_160: -454113343
+      New ante tiles_161: 796931842
+      New ante tiles_162: 345143536
+      New ante tiles_163: 404286790
+      New ante tiles_164: 499441041
+      New ante tiles_165: -1869860623
+      New ante tiles_166: 337897303
+      New ante tiles_167: -1207188538
+      New ante tiles_168: 1425806073
+      New ante tiles_169: 791384196
+      New ante tiles_17: 1584374321
+      New ante tiles_170: 652906331
+      New ante tiles_171: 1041960381
+      New ante tiles_172: -795420887
+      New ante tiles_173: 796459352
+      New ante tiles_174: -589972715
+      New ante tiles_175: 552900860
+      New ante tiles_176: -345446141
+      New ante tiles_177: 1376334924
+      New ante tiles_178: -755812413
+      New ante tiles_179: -529999754
+      New ante tiles_18: 849666091
+      New ante tiles_180: -1787667166
+      New ante tiles_181: 2023868312
+      New ante tiles_182: -241464755
+      New ante tiles_183: -1303694293
+      New ante tiles_184: -39106557
+      New ante tiles_185: -470286448
+      New ante tiles_186: -1389100031
+      New ante tiles_187: 2125818963
+      New ante tiles_188: 2085241628
+      New ante tiles_189: -319723616
+      New ante tiles_19: -473521022
+      New ante tiles_190: 1661230132
+      New ante tiles_191: 338520402
+      New ante tiles_192: 414401955
+      New ante tiles_193: -20985760
+      New ante tiles_194: -250947701
+      New ante tiles_195: -457904013
+      New ante tiles_196: -1045051728
+      New ante tiles_197: 1722855404
+      New ante tiles_198: -149777066
+      New ante tiles_199: -1891166686
+      New ante tiles_2: -449445436
+      New ante tiles_20: -2097709398
+      New ante tiles_200: -1034029777
+      New ante tiles_201: 69543972
+      New ante tiles_202: 211960564
+      New ante tiles_203: -817271345
+      New ante tiles_204: 44612043
+      New ante tiles_205: -568874570
+      New ante tiles_206: 1980103864
+      New ante tiles_207: -794451395
+      New ante tiles_208: 125991126
+      New ante tiles_209: -1643942603
+      New ante tiles_21: -33577469
+      New ante tiles_210: -1138697929
+      New ante tiles_211: -2003993104
+      New ante tiles_212: -1625860249
+      New ante tiles_213: -1507313119
+      New ante tiles_214: 1060266996
+      New ante tiles_215: -882903583
+      New ante tiles_216: -2025830285
+      New ante tiles_217: -973412109
+      New ante tiles_218: 672076509
+      New ante tiles_219: -45426341
+      New ante tiles_22: -336480525
+      New ante tiles_220: -839050054
+      New ante tiles_221: 2105960132
+      New ante tiles_222: -1411142724
+      New ante tiles_223: 2000211333
+      New ante tiles_224: -1795030156
+      New ante tiles_225: -1265605799
+      New ante tiles_226: -1987608627
+      New ante tiles_227: -110012280
+      New ante tiles_228: 1115326326
+      New ante tiles_229: -197004797
+      New ante tiles_23: 74419479
+      New ante tiles_230: 860412736
+      New ante tiles_231: -2088228817
+      New ante tiles_232: -243951293
+      New ante tiles_233: -524862883
+      New ante tiles_234: -1168124139
+      New ante tiles_235: -1484395707
+      New ante tiles_236: 247028180
+      New ante tiles_237: -2024178917
+      New ante tiles_238: -1773710664
+      New ante tiles_239: -867266482
+      New ante tiles_24: -1534866787
+      New ante tiles_240: 970890480
+      New ante tiles_241: -573679980
+      New ante tiles_242: -1398999325
+      New ante tiles_243: 1136552482
+      New ante tiles_244: -1447138651
+      New ante tiles_245: 757918435
+      New ante tiles_246: -770158305
+      New ante tiles_247: 1897806346
+      New ante tiles_248: -794373988
+      New ante tiles_249: 640511529
+      New ante tiles_25: -2108083628
+      New ante tiles_250: 130311372
+      New ante tiles_251: -968221856
+      New ante tiles_252: -1873500350
+      New ante tiles_253: -20575475
+      New ante tiles_254: -923123663
+      New ante tiles_255: 960304032
+      New ante tiles_256: 585659863
+      New ante tiles_257: -1061338152
+      New ante tiles_258: -1867871406
+      New ante tiles_259: 46179975
+      New ante tiles_26: 214579837
+      New ante tiles_260: 2097663791
+      New ante tiles_261: -159967715
+      New ante tiles_262: -131398144
+      New ante tiles_263: -1778728388
+      New ante tiles_264: 570829056
+      New ante tiles_265: 1618387507
+      New ante tiles_266: 1772756430
+      New ante tiles_267: -1920698970
+      New ante tiles_268: 773495195
+      New ante tiles_269: -1197193587
+      New ante tiles_27: 567413874
+      New ante tiles_270: -1970721696
+      New ante tiles_271: -450499731
+      New ante tiles_28: -253085577
+      New ante tiles_29: -20704954
+      New ante tiles_3: 7544169
+      New ante tiles_30: -431911188
+      New ante tiles_31: 1974057228
+      New ante tiles_32: -75105033
+      New ante tiles_33: 2066065468
+      New ante tiles_34: -1036447116
+      New ante tiles_35: 1964549381
+      New ante tiles_36: 332558963
+      New ante tiles_37: 1419026172
+      New ante tiles_38: 652126600
+      New ante tiles_39: -838634162
+      New ante tiles_4: 521277447
+      New ante tiles_40: -361829396
+      New ante tiles_41: -633838811
+      New ante tiles_42: -1137159418
+      New ante tiles_43: -1225577565
+      New ante tiles_44: -233118669
+      New ante tiles_45: -982258323
+      New ante tiles_46: -209642105
+      New ante tiles_47: -1790815182
+      New ante tiles_48: -464194380
+      New ante tiles_49: -78439096
+      New ante tiles_5: -1561196292
+      New ante tiles_50: 1560943329
+      New ante tiles_51: 127865658
+      New ante tiles_52: 1974201877
+      New ante tiles_53: 1827750189
+      New ante tiles_54: -1989050775
+      New ante tiles_55: -1102280536
+      New ante tiles_56: -1238840659
+      New ante tiles_57: 355930901
+      New ante tiles_58: -1924407595
+      New ante tiles_59: -563831250
+      New ante tiles_6: 2072657454
+      New ante tiles_60: 802732564
+      New ante tiles_61: -584095327
+      New ante tiles_62: -1149393179
+      New ante tiles_63: 575068678
+      New ante tiles_64: -2071803272
+      New ante tiles_65: -1241455215
+      New ante tiles_66: 1480313906
+      New ante tiles_67: 240571446
+      New ante tiles_68: 1069497859
+      New ante tiles_69: -768750572
+      New ante tiles_7: 660853458
+      New ante tiles_70: -1373717888
+      New ante tiles_71: -32635634
+      New ante tiles_72: -1788878653
+      New ante tiles_73: -1818195426
+      New ante tiles_74: 568563352
+      New ante tiles_75: -197642897
+      New ante tiles_76: -212207810
+      New ante tiles_77: -1217891165
+      New ante tiles_78: -288427535
+      New ante tiles_79: 1268264109
+      New ante tiles_8: -936072982
+      New ante tiles_80: -600041594
+      New ante tiles_81: -118752701
+      New ante tiles_82: 1291939132
+      New ante tiles_83: 1500333430
+      New ante tiles_84: 431654371
+      New ante tiles_85: -1209660335
+      New ante tiles_86: -2045906131
+      New ante tiles_87: -1112043878
+      New ante tiles_88: -1293788421
+      New ante tiles_89: -1147475022
+      New ante tiles_9: 1534480387
+      New ante tiles_90: 100243992
+      New ante tiles_91: -295351238
+      New ante tiles_92: -1297174381
+      New ante tiles_93: 711855668
+      New ante tiles_94: 1752316475
+      New ante tiles_95: -48137197
+      New ante tiles_96: -1098292742
+      New ante tiles_97: -1603184764
+      New ante tiles_98: 1670555325
+      New ante tiles_99: 880111960
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
